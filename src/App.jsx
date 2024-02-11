@@ -9,7 +9,7 @@ function App() {
 
   return (
      <>
-     
+     hi!!i wrote it!!!
      <ListPeople/>
       <AddPeople/>
       
