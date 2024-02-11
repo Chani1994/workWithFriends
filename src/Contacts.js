@@ -16,7 +16,6 @@ class Contacts {
 
     addPeople= (formData) => {
         this.people = [...this.people, {  name: formData.name, city:formData.city, tel: formData.tel ,}]
-        diti lev
     }
     deletePeople = (formData) => {
         this.people.splice(this.people.indexOf(formData), 1)
