@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.left-aligned-component {
+  position: fixed;
+  top: 100px;
+  left: 150px;
+  height:50vh; /* Adjust the height as needed */
+  width: 280px; /* Adjust the width as needed */
+  background-color: #f2f2f2; /* Adjust the background color as needed */
+}
+.right-aligned-component {
+  position: fixed;
+  top: 100px;
+  right: 150px;
+  height:300vh; /* Adjust the height as needed */
+  width: 350px; /* Adjust the width as needed */
+  background-color: #f2f2f2; /* Adjust the background color as needed */
+}
