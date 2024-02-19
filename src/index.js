@@ -1,5 +1,3 @@
 
 
-function name(params) {
-    alert("by chani")
-}
+console.log('chani');
