@@ -15,7 +15,11 @@ class Contacts {
     };
 
     addPeople= (formData) => {
+<<<<<<< HEAD
+      this.people = [...this.people, {  name: formData.name, city:formData.city, tel: formData.tel ,}]
+=======
         this.people = [...this.people, {  name: formData.name, city:formData.city, tel: formData.tel ,}]
+>>>>>>> Chani1994/master
     }
     deletePeople = (formData) => {
         this.people.splice(this.people.indexOf(formData), 1)
