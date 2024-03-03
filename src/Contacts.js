@@ -36,4 +36,5 @@ class Contacts {
 
 export default new Contacts()//singletone
 
+console.log('lea');
 console.log('diti');
